@@ -2,7 +2,7 @@ import java.io.File;
 import java.util.Scanner; 
 import import java.io.*;
 
-public class MidtermAct04
+public class Midtermact04
 {
 	public static void main(String[] args) {
 		try {
@@ -24,10 +24,10 @@ public class MidtermAct04
 			while (in.hasNext()){
 				String str = in.next();
 				if(str.equals("1001-11")) {
-					out.println("Code: " + str);
-					out.println("First_Name: " + in.next());
-					out.println("Last_Name: " + in.next());
-					out.println("CP #: " + in.next());
+					System.out.println("Code: " + str);
+					System.out.println("First_Name: " + in.next());
+					System.out.println("Last_Name: " + in.next());
+					System.out.println("CP #: " + in.next());
 					break;
 				}
 			}
@@ -35,7 +35,7 @@ public class MidtermAct04
 			in.close();
 
 		} catch (IOException e) {
-            System.out.println("Exception");
+           				 System.out.println("Exception");
         }
 	}
 }
