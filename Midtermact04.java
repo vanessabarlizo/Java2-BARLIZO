@@ -1,5 +1,6 @@
 import java.io.File; 
 import java.util.Scanner; 
+import import java.io.*;
 
 public class MidtermAct04
 {
